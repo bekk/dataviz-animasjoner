@@ -59,7 +59,7 @@ I **Eksempel 1** brukte vi `translate(20px)` for å flytte boksen mot høyre, me
 
 `translateZ()` lar oss forflytte elementer "ut av skjermen", men det kommer vi tilbake til senere.
 
-### Skalering
+### Skalering - `scale`
 
 **Eksempel 1:**
 
@@ -106,7 +106,7 @@ div {
 
 Også `scale()` har alternative definisjoner; `scaleX()`, `scaleY()` og `scaleZ()`. Igjen kommer vi tilbake til dette med z-aksen senere.
 
-### Skråstilling
+### Skråstilling - `skew`
 
 **Eksempel 1**:
 
@@ -161,7 +161,7 @@ div {
 
 Akkurat som med `translate()` og `scale()`, kan vi definere definere `skew()` med to parametre, for å gjøre transformasjoner i både x- og y-retning.
 
-### Rotasjon
+### Rotasjon - `rotate`
 
 **Eksempel 1:**
 
