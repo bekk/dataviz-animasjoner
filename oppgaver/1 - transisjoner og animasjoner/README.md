@@ -10,6 +10,7 @@ Knappen over har følgende styling:
 
 ```css
 button {
+  font-size: 40px;
   padding: 20px;
   border: none;
   border-radius: 10px;
@@ -39,6 +40,7 @@ All CSS for knappen, inkludert transisjonen, blir altså:
 
 ```css
 button {
+  font-size: 40px;
   padding: 20px;
   border: none;
   border-radius: 10px;
@@ -51,5 +53,19 @@ button:hover {
   background: #008080;
 }
 ```
+
+## Oppgaver
+
+Åpne opp `src/index.html` i en nettleser. Som i del 0 skal selve oppgavene løses ved å redigere `src/style.css`.
+
+1. Legg til en transisjon til, ved å definere enn annen verdi for `color` i `button:hover`-selektoren.
+
+Fordi vi kun har definert tiden transisjonen skal ta, animeres alle propertiene som endrer seg. Vi kan eksplisitt velge å kun animere én property, ved å spesifisere navnet på propertien, f.eks. `transition: background 400ms`.
+
+Vi kan også definere to transisjoner med ulik hastighet, på følgende måte: `transition: property1 400ms, property2 200ms`.
+
+2. Utvid `transition`-propertien, slik at `color`-animasjonen skjer i en annen hastighet.
+
+<!-- <img width="400" src="img/easing.gif"> -->
 
 ## Animasjoner - `animation`

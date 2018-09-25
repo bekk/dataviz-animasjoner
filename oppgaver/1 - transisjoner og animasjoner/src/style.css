@@ -1,7 +1,18 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  font-family: 'Fira Sans', sans-serif;
+button {
+  font-size: 40px;
+  color: white;
+  background: #4fc7ef;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: 400ms;
+}
+
+button:hover {
+  background: teal;
 }
