@@ -1,6 +1,4 @@
-# Oppgave 0 - Bli kjent med `transform`
-
-## Bakgrunn
+# 0 - Bli kjent med `transform`
 
 CSS-propertien `transform` lar oss forflytte, skalere, skråstille og rotere elementer. Dette kan gjøres i tre dimensjoner – rundt x-, y- og/eller z-aksen. "Koordinatsystemet" i et nettleservindu er illustrert under.
 
@@ -8,7 +6,7 @@ CSS-propertien `transform` lar oss forflytte, skalere, skråstille og rotere ele
 
 I eksemplene under vil blå boks illustrere elementene _uten_ en gitt `transform` satt, mens den røde boksen vil vise resultatet av å definere en `transform`-property.
 
-### Forflytting - `translate`
+## Forflytting - `translate`
 
 **Eksempel 1:**
 
@@ -23,7 +21,7 @@ div {
 
 <img src="img/eksempel-1.png" width="120">
 
-Den røde boksen er den som er beskrevet av CSS-snutten over. Den blå boksen viser hvordan den samme boksen ville sett ut _uten_ `transform: translate(20px)`. `translate(20px)` gjør altså at boksen flytter seg 20px til høyre, eller - sagt på en annen måte - 20px i positiv retning langs x-aksen.
+Den røde boksen er den som er beskrevet av CSS-snutten over. Den blå boksen viser hvordan den samme boksen ville sett ut _uten_ `transform: translate(20px)`. `translate(20px)` gjør altså at boksen flytter seg 20 pixler til høyre, eller - sagt på en annen måte - 20 pixler i positiv retning langs x-aksen.
 
 **Eksempel 2**
 
@@ -59,7 +57,15 @@ I **Eksempel 1** brukte vi `translate(20px)` for å flytte boksen mot høyre, me
 
 `translateZ()` lar oss forflytte elementer "ut av skjermen", men det kommer vi tilbake til senere.
 
-### Skalering - `scale`
+### Oppgaver
+
+Åpne opp `src/index.html` i en nettleser. Selve oppgavene skal løses ved å redigere `src/style.css`. Løs hver oppgave ved å redigere CSSen i selektoren som tilsvarer oppgavenummeret (`.oppgave-1` for oppgave 1 osv.).
+
+1. Flytt boks nr. 1 `20px` til høyre, ved å bruke `translateX()`. Lagre endringene, og refresh nettleservinduet med filen `src/index.html` for å se resultatet.
+2. Flytt boks nr. 2 `20px` oppover, ved å bruke `translateY()`.
+3. Flytt boks nr. 3 `50%` til venstre og `50%` oppover, ved å bruke `translate()` med to parametre.
+
+## Skalering - `scale`
 
 **Eksempel 1:**
 
@@ -106,7 +112,14 @@ div {
 
 Også `scale()` har alternative definisjoner; `scaleX()`, `scaleY()` og `scaleZ()`. Igjen kommer vi tilbake til dette med z-aksen senere.
 
-### Skråstilling - `skew`
+### Oppgaver
+
+1. Gjør boks nr. 4 dobbelt bred, ved å bruke `scaleX()`.
+2. Gjør boks nr. 5 halvparten så høy, ved å bruke `scaleY()`.
+3. Gjør boks nr. 6 tre ganger så bred og tre ganger så høy, ved å bruke `scale()`.
+4. Gjør boks nr. 7 0.2 ganger så bred og dobbelt ganger så høy, ved å bruke `scale()` med to parametre.
+
+## Skråstilling - `skew`
 
 **Eksempel 1**:
 
@@ -161,7 +174,15 @@ div {
 
 Akkurat som med `translate()` og `scale()`, kan vi definere definere `skew()` med to parametre, for å gjøre transformasjoner i både x- og y-retning.
 
-### Rotasjon - `rotate`
+### Oppgaver
+
+`skew()` er litt enklere å forstå, dersom man bruker DevTools i nettleseren til å gradvis øke parameterene med +/-1. Du kan se hvordan dette gjøres [her](https://developers.google.com/web/updates/2015/05/quickly-change-css-values). Dersom du ikke er så kjent med DevTools, kan en av veilederne hjelpe deg.
+
+8. Skråstill boks nr. 8 med 30 grader, ved å bruke `skewX(30deg)`.
+9. Skråstill boks nr. 9 med 30 grader, ved å bruke `skewY()`.
+10. Skråstill boks nr. 10 med ved å bruke `skew()` med to parametre, og prøv å endre litt på dem i DevTools.
+
+## Rotasjon - `rotate`
 
 **Eksempel 1:**
 
@@ -177,3 +198,8 @@ div {
 <img src="img/eksempel-10.png" width="140">
 
 Her ser vi at `rotate(30deg)` roterer boksen 30° _med_ klokka. Tilsvarende ville `rotate(-30deg)` rotert boksen 30° _mot_ klokka. Hvis vi ser på bildet av "koordinatsystemet" til en nettleser igjen, ser vi at dette tilsvarer en rotasjon rundt z-aksen. På samme måte som vi har `translate(20px) == translateX(20px)`, vil en mer eksplisitt versjon av `rotate(30deg)` derfor være `rotateZ(30deg)`
+
+### Oppgaver
+
+11. Roter boks nr. 11 20 grader med klokka, ved å bruke `rotate()` eller `rotateZ()` .
+12. Vi kan også bruke `turn` som enhet, for å definere hvor mye et element et skal roteres. Roter boks nr. 12 ved å bruke `rotate(0.5turn)`

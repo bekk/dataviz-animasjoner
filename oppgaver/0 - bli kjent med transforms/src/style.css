@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+section {
+  padding: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.box {
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 50px;
+  height: 100px;
+  width: 100px;
+}
+
+/* OPPGAVER */
+/* Hver boks har et klassenavn som tilsvarer oppgaven den tilhører */
+
+/* translate: */
+
+.oppgave-1 {
+  transform: translateX();
+}
+
+.oppgave-2 {
+  transform: ;
+}
+
+.oppgave-3 {
+  transform: ;
+}
+
+/* scale */
+
+.oppgave-4 {
+  transform: scaleX();
+}
+
+.oppgave-5 {
+  transform: ;
+}
+
+.oppgave-6 {
+  transform: ;
+}
+
+/* skew */
+
+.oppgave-7 {
+  transform: skewX();
+}
+
+.oppgave-8 {
+  transform: ;
+}
+
+.oppgave-9 {
+  transform: ;
+}
+
+/* rotate */
+
+.oppgave-4 {
+  transform: rotate();
+}
+
+.oppgave-5 {
+  transform: ;
+}
+
+.oppgave-6 {
+  transform: ;
+}
