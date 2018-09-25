@@ -56,30 +56,30 @@ section {
   transform: ;
 }
 
-/* skew */
-
 .oppgave-7 {
-  transform: skewX();
+  transform: ;
 }
 
+/* skew */
+
 .oppgave-8 {
-  transform: ;
+  transform: skewX();
 }
 
 .oppgave-9 {
   transform: ;
 }
 
-/* rotate */
-
-.oppgave-4 {
-  transform: rotate();
-}
-
-.oppgave-5 {
+.oppgave-10 {
   transform: ;
 }
 
-.oppgave-6 {
+/* rotate */
+
+.oppgave-11 {
+  transform: rotate();
+}
+
+.oppgave-12 {
   transform: ;
 }
