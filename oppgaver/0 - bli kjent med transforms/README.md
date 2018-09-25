@@ -2,7 +2,7 @@
 
 CSS-propertien `transform` lar oss forflytte, skalere, skråstille og rotere elementer. Dette kan gjøres i tre dimensjoner – rundt x-, y- og/eller z-aksen. "Koordinatsystemet" i et nettleservindu er illustrert under.
 
-<img src="../../img/nettleser-koordinater.png" height="300">
+<img src="img/nettleser-koordinater.png" height="300">
 
 I eksemplene under vil blå boks illustrere elementene _uten_ en gitt `transform` satt, mens den røde boksen vil vise resultatet av å definere en `transform`-property.
 
@@ -136,7 +136,7 @@ div {
 
 Nøyaktig hvordan `skewX()` fungerer er lettere forklart med et bilde, enn med ord:
 
-<img src="../../img/skewx.png" height="300">
+<img src="img/skewx.png" height="300">
 
 Den kan kanskje være litt forvirrende at `skewX(30deg)` definerer vinkelen boksen danner med y-aksen, men tenk da heller på hvilken retning boksen _endrer_ seg langt.
 
@@ -155,7 +155,7 @@ div {
 
 Igjen, `skewY()` er også lettere forklart med et bilde:
 
-<img src="../../img/skewy.png" height="300">
+<img src="img/skewy.png" height="300">
 
 Og selv om vi definerer vinkelen i forhold til x-aksen, er det altså i y-retning at boksen endrer seg.
 
@@ -178,9 +178,9 @@ Akkurat som med `translate()` og `scale()`, kan vi definere definere `skew()` me
 
 `skew()` er litt enklere å forstå, dersom man bruker DevTools i nettleseren til å gradvis øke parameterene med +/-1. Du kan se hvordan dette gjøres [her](https://developers.google.com/web/updates/2015/05/quickly-change-css-values). Dersom du ikke er så kjent med DevTools, kan en av veilederne hjelpe deg.
 
-8. Skråstill boks nr. 8 med 30 grader, ved å bruke `skewX(30deg)`.
-9. Skråstill boks nr. 9 med 30 grader, ved å bruke `skewY()`.
-10. Skråstill boks nr. 10 med ved å bruke `skew()` med to parametre, og prøv å endre litt på dem i DevTools.
+1. Skråstill boks nr. 8 med 30 grader, ved å bruke `skewX(30deg)`.
+2. Skråstill boks nr. 9 med 30 grader, ved å bruke `skewY()`.
+3. Skråstill boks nr. 10 med ved å bruke `skew()` med to parametre, og prøv å endre litt på dem i DevTools.
 
 ## Rotasjon - `rotate`
 
