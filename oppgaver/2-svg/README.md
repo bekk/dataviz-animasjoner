@@ -19,7 +19,7 @@ SVG er et XML-språk, i likhet med HTML, som kan bli brukt til å tegne vektorgr
 
 Ved å kopiere og lime inn koden over i en fil med navn bekk.svg og åpne den i nettleseren vil man se følgende skjermdump.
 
-<img src="img/bekk.png" height="150">
+<img src="img/bekk.png" height="200">
 
 `svg`-elementet spesifiserer høyden (`height="250"`) og bredden (`width="300"`) til selve SVGen. Versjonen spesifiseres med `version`, `baseProfile` og `xmlns`.
 
@@ -39,7 +39,7 @@ Koordinatsystemet startet i øvre venstre hjørne (0,0). Posisjoner måles i pik
 
 :trophy: [Oppgave 1](https://codepen.io/sveinpg/pen/qJErqy): Flytt den rød firkanten ned i høyre hjørne.
 
-<img src="img/rect.png" height="150">
+<img src="img/rect.png" height="200">
 
 :bulb: Mer om posisjonering kan leses på [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions)
 
@@ -57,9 +57,10 @@ Det finnes former som man bruke som byggesteiner til å lage mer avanserte SVGer
 
 :trophy: [Oppgave 2](https://codepen.io/sveinpg/pen/ePmvey): Lag en svart firkant med en rød sirkel.
 
-<img src="img/circle.png" height="150">
+<img src="img/circle.png" height="200">
 
 :bulb: Man bruker attributten `fill` til å sette fyllfarge.
+
 :bulb: SVG-dokumenter leses fra toppen og nedover. Slik at elementer definert lenger ned i dokumentet tegnes på toppen av de som er tegnet allerede.
 
 ## Fill and stroke
@@ -68,6 +69,6 @@ For å bestemme fargen til et element bruker man attributtene `fill` og `stroke`
 
 :trophy: [Oppgave 3](https://codepen.io/sveinpg/pen/KGwWbX): Gi hjertet rød fyllfarge og en svart strek rundt.
 
-<img src="img/hearth.png" height="150">
+<img src="img/hearth.png" height="200">
 
 :bulb: Mer om [fill og stroke](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes)
