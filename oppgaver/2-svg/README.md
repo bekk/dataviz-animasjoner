@@ -37,7 +37,7 @@ Koordinatsystemet startet i øvre venstre hjørne (0,0). Posisjoner måles i pik
 
 > Legg merke til at dette er motsatt av hva man lærte på skolen.
 
-:trophy: [Oppgave 1](https://codepen.io/sveinpg/pen/qJErqy): Flytt den rød sirkelen ned i høyre hjørne.
+:trophy: [Oppgave 1](https://codepen.io/sveinpg/pen/qJErqy): Flytt den rød firkanten ned i høyre hjørne.
 
 <img src="img/rect.png" height="150">
 
