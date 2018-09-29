@@ -64,8 +64,20 @@ Fordi vi kun har definert tiden transisjonen skal ta, animeres alle propertiene 
 
 Vi kan også definere to transisjoner med ulik hastighet, på følgende måte: `transition: property1 400ms, property2 200ms`.
 
-2. Utvid `transition`-propertien, slik at `color`-animasjonen skjer i en annen hastighet.
+2. Utvid `transition`-propertien, slik at `color`-transisjonen tar `200ms`.
 
-<!-- <img width="400" src="img/easing.gif"> -->
+For å utsette starttidspunktet for en transisjon, legger vi til et delay. Dette kan gjøres slik: `transition: color 200ms 100ms`. Her har vi lagt til et delay på `100ms`. Legg merke til at lengden på transisjonen defineres først.
+
+3. Legg på en delay på `color`-transisjonen, slik at den slutter samtidig som `background`-transisjonen.
+
+Den siste egenskapen ved en transisjon vi kan tweake på, er hvordan den akselererer, også kalt "timing function". De ulike alternativene er illustrert her:
+
+<img width="400" src="img/easing.gif">
+  
+Defaultverdien er `ease`, men vi kan endre den til f.eks. `linear` slik: `transition: color 200ms 100ms linear`.
+
+Det er også mulig å lage en egendefinert akselerasjonskurve, ved å bruke [cubic-bezier](http://cubic-bezier.com/#.17,.67,.83,.67).
+
+4. Sett akselerasjonen på `color`-transisjonen til `ease-in`. Prøv å bruke Chrome DevTools sin [cubic bezier editor](https://imgur.com/gallery/o2c15CZ) til å tweake på kurven.
 
 ## Animasjoner - `animation`
