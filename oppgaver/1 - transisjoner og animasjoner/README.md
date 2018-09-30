@@ -101,6 +101,8 @@ Vi kan konfigurere en animasjon på samme måte som vi konfigurerer en transisjo
 - [`animation-fill-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
 - [`animation-play-state`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
 
+Det går også an å definere animasjon med shorthand, som beskrevet [her](https://developer.mozilla.org/en-US/docs/Web/CSS/animation).
+
 I motsetning til transisjoner, definerer vi ikke egenskapen som skal animeres. I stedet definerer vi dette med en `@keyframes`-regel. `animation-name` tilsvarer navnet på `@keyframes`-regelen.
 
 ### Oppsett av stegene i animasjonen
