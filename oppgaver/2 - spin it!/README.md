@@ -26,5 +26,5 @@ Animer elementene som er satt opp, slik:
 
 <img src="img/clockspinner.gif" height="150">
 
-:bulb: Sentrum for animasjonen kan defineres med [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
+:bulb: Sentrum for animasjonen kan defineres med [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)  
 :grimacing: [Fasit](https://codepen.io/mfeiring/pen/JmdGdO)
