@@ -97,8 +97,24 @@ Med følgende styling.
 }
 ```
 
-Vil det se slik ut. Legg merke til at man bruker `id` til å hente ut riktig element.
+Vil det se slik ut.
 
 <img src="img/css.png" height="200">
 
+> Legg merke til at man bruker `id` til å hente ut riktig element.
+
 :trophy: [Oppgave 4](https://codepen.io/sveinpg/pen/KGwWbX): Gi hjertet rød fyllfarge og en svart strek rundt ved hjelp av css.
+
+### Animasjoner med css.
+
+Hvis du har vært inne på uxcup.bekk.no har du kanskje sett de kule animasjonene vi har der?
+
+Skulle du ønske at du kunne lage like kule animasjoner? Flaks for deg, det er nemlig det du skal nå.
+
+:trophy: [Oppgave 5](fsef): Lag to keyframes (`shake` og `dash`) og få raketten til å se mer levende ut. Når du er ferdig burde du ha noe som ligner på raketten under.
+
+<img src="img/rocket.gif" height="200">
+
+:bulb: Man kan lage effekten av at raketten rister med `translate3d`
+
+:bulb: Man kan lage effekten av at strekene beveger seg med `stroke-dashoffset`
