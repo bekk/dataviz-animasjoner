@@ -107,11 +107,11 @@ Vil det se slik ut.
 
 ### Animasjoner med css.
 
-Hvis du har vært inne på uxcup.bekk.no har du kanskje sett de kule animasjonene vi har der?
+Hvis du har vært inne på uxcup.bekk.no har du nok sett de kule animasjonene vi har der. Disse er laget av SVGer som er animert med CSS. Man setter en klasse på SVG-elementet og bruker denne klassen til å gi SVGen en animasjon via `animation` nøkkelen i CSS.
 
 Skulle du ønske at du kunne lage like kule animasjoner? Flaks for deg, det er nemlig det du skal nå.
 
-:trophy: [Oppgave 5](fsef): Lag to keyframes (`shake` og `dash`) og få raketten til å se mer levende ut. Når du er ferdig burde du ha noe som ligner på raketten under.
+:trophy: [Oppgave 5](https://codepen.io/sveinpg/pen/EdaqQE): Lag to keyframes (`shake` og `dash`) og få raketten til å se mer levende ut. Når du er ferdig burde du ha noe som ligner på raketten under.
 
 <img src="img/rocket.gif" height="200">
 
