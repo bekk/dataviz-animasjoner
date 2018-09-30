@@ -25,3 +25,6 @@ Animer elementene som er satt opp, slik:
 Animer elementene som er satt opp, slik:
 
 <img src="img/clockspinner.gif" height="150">
+
+:bulb: Sentrum for animasjonen kan defineres med [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
+:face_with_hand_over_mouth: [Fasit](https://codepen.io/mfeiring/pen/JmdGdO)
