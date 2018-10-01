@@ -53,9 +53,9 @@ div {
 
 Her har vi brukt en litt annen variant av `translate()`. Med `translateY()` definerer vi eksplisitt at vi vil flytte boksen kun langs y-aksen (vertikalt). Vi har også brukt `50%` i stedet for `-20px`, som betyr at vi forflytter nedover med en lengde som tilsvarer halvparten av høyden til boksen.
 
-I **Eksempel 1** brukte vi `translate(20px)` for å flytte boksen mot høyre, men vi kunne like så gjerne skrevet `translateX(20px)`.
+I **eksempel 1** brukte vi `translate(20px)` for å flytte boksen mot høyre, men vi kunne like så gjerne skrevet `translateX(20px)`.
 
-`translateZ()` lar oss forflytte elementer "ut av skjermen", men det kommer vi tilbake til senere.
+> `translateZ()` lar oss forflytte elementer "ut av skjermen", men det kommer vi tilbake til senere.
 
 ### Oppgaver
 
@@ -96,6 +96,8 @@ div {
 <img src="img/eksempel-5.png" width="100">
 
 På samme måte som med `translate()`, kan vi også med `scale()` definere to parametre. Her har vi satt det andre parameteret til `1`, og vi ser at høyden på boksen ikke endrer seg, men at det blir halvparten så stort i bredden. Boksen skaleres altså ned med 50% i x-retning, mens dimensjonen i y-retning bevares.
+
+> Man kan bruke [transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin) for å endre på ankerpunktet til `transform`. Default
 
 **Eksempel 3:**
 
@@ -138,7 +140,9 @@ Nøyaktig hvordan `skewX()` fungerer er lettere forklart med et bilde, enn med o
 
 <img src="img/skewx.png" height="300">
 
-Den kan kanskje være litt forvirrende at `skewX(30deg)` definerer vinkelen boksen danner med y-aksen, men tenk da heller på hvilken retning boksen _endrer_ seg langt.
+Den kan kanskje være litt forvirrende at `skewX(30deg)` definerer vinkelen boksen danner med y-aksen, men tenk da heller på hvilken retning boksen _endrer_ seg langs.
+
+> Man kan i tillegg til grader (`deg`) oppgi verdien i radianer (`rad`) og runder (`turn`). 90 grader vil da være henholdsvis `1.57079633rad` og `0.125turn`.
 
 **Eksempel 2**
 
