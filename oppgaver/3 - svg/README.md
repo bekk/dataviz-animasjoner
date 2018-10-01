@@ -1,8 +1,8 @@
-# SVG
+# 3 - SVG
 
-SVG er et XML-språk, i likhet med HTML, som kan bli brukt til å tegne vektorgrafikk. Enten ved å spesfisere alle linjer og objekter eller ved å modifisere bilder.
+SVG er et XML-basert språk som kan brukes til å tegne vektorgrafikk, enten ved å spesfisere alle linjer og objekter eller ved å modifisere bilder.
 
-## Et enkelt eksempel.
+## Et enkelt eksempel
 
 ```html
 <svg
@@ -13,11 +13,11 @@ SVG er et XML-språk, i likhet med HTML, som kan bli brukt til å tegne vektorgr
 >
   <circle cx="150" cy="125" r="125" fill="black" />
 
-  <text x="150" y="150" font-size="60" text-anchor="middle" fill="white">BEKK</text>
+  <text x="150" y="150" font-size="60" text-anchor="middle" fill="white">Bekk</text>
 </svg>
 ```
 
-Ved å kopiere og lime inn koden over i en fil med navn bekk.svg og åpne den i nettleseren vil man se følgende skjermdump.
+Ved å kopiere og lime inn koden over i en fil med navn `bekk.svg` og åpne den i nettleseren vil man se følgende bilde:
 
 <img src="img/bekk.png" height="200">
 
@@ -25,7 +25,7 @@ Ved å kopiere og lime inn koden over i en fil med navn bekk.svg og åpne den i 
 
 `circle`-elementet tegner en sirkel med sentrum i `cx="150" cy="125"` med radius 125 piksler (`r="125"`) og svart bakgrunnsfarge (`fill="black"`).
 
-`text`-elementet skriver teksten `BEKK` med hvit skrift (`fill="white"`) i skriftstørrelse 60px (`font-size="60"`) på posisjon spesifisert med `x="150" y="150" text-anchor="middle"`
+`text`-elementet skriver teksten `Bekk` med hvit skrift (`fill="white"`) i skriftstørrelse 60px (`font-size="60"`) på posisjon spesifisert med `x="150" y="150" text-anchor="middle"`
 
 ### Posisjonering
 
@@ -35,11 +35,11 @@ Man bruker et koordinatsystem for å posisjonere elementer i svg-dokumentet.
 
 Koordinatsystemet startet i øvre venstre hjørne (0,0). Posisjoner måles i piksler fra dette hjørnet, med positiv x-retning til høyre og positiv y-retning nedover.
 
-> Legg merke til at dette er motsatt av hva man lærte på skolen.
+> Legg merke til at den vertikale retningen er motsatt av hva man lærte på skolen.
 
 ### :trophy: [Oppgave 1](https://codepen.io/sveinpg/pen/qJErqy)
 
-Flytt den rød firkanten ned i høyre hjørne.
+Flytt den røde firkanten ned i høyre hjørne.
 
 <img src="img/rect.png" height="200">
 
@@ -83,11 +83,11 @@ Gi hjertet rød fyllfarge og en svart strek rundt.
 
 ## Styling med CSS
 
-I tillegg til å sette attributter på objekter kan man bruke CSS til å style `fill` og `stroke`. Ikke alle attributter kan settes med CSS. `fill`, `stroke` og `stroke-dasharray` er blandt attributtene som kan settes med CSS. Attributter som `width`, `height` og `path`-spesifikke kommandoer kan ikke settes med CSS.
+I tillegg til å sette attributter på objekter kan man bruke CSS til å style `fill` og `stroke`. Ikke alle attributter kan settes med CSS. `fill`, `stroke` og `stroke-dasharray` er blant attributtene som kan settes med CSS. Attributter som `width`, `height` og `path`-spesifikke kommandoer kan ikke settes med CSS.
 
-> Man kan lese [SVG spesifikasjonen](https://www.w3.org/TR/SVG/propidx.html) for å se hvilke som lar seg modifisere med CSS. Attributene som blir klassifisert som `properties` kan man modifisere med CSS.
+> Man kan lese [SVG spesifikasjonen](https://www.w3.org/TR/SVG/propidx.html) for å se hvilke egenskaper som lar seg modifisere med CSS. Attributene som blir klassifisert som `properties` kan man modifisere med CSS.
 
-Gitt at man har følgende svg.
+Gitt at man har følgende svg:
 
 ```html
 <?xml version="1.0" standalone="no"?>
@@ -96,7 +96,7 @@ Gitt at man har følgende svg.
 </svg>
 ```
 
-Med følgende styling.
+Med følgende styling:
 
 ```css
 #MyRect {
@@ -119,7 +119,7 @@ Gi hjertet rød fyllfarge og en svart strek rundt ved hjelp av css.
 
 Hvis du har vært inne på uxcup.bekk.no har du nok sett de kule animasjonene vi har der. Disse er laget av SVGer som er animert med CSS. Man setter en klasse på SVG-elementet og bruker denne klassen til å gi SVGen en animasjon via `animation` nøkkelen i CSS.
 
-Skulle du ønske at du kunne lage like kule animasjoner? Flaks for deg, det er nemlig det du skal nå.
+Skulle du ønske at du kunne lage like koselige animasjoner? Flaks for deg, det er nemlig det du skal nå.
 
 ### :trophy: [Oppgave 5](https://codepen.io/mfeiring/pen/JmdVNM)
 
