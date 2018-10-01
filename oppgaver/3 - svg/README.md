@@ -37,13 +37,13 @@ Koordinatsystemet startet i øvre venstre hjørne (0,0). Posisjoner måles i pik
 
 > Legg merke til at dette er motsatt av hva man lærte på skolen.
 
-### :trophy: [Oppgave 1](https://codepen.io/sveinpg/pen/qJErqy) 
+### :trophy: [Oppgave 1](https://codepen.io/sveinpg/pen/qJErqy)
 
 Flytt den rød firkanten ned i høyre hjørne.
 
 <img src="img/rect.png" height="200">
 
-:bulb: Flytter man firkanten for langt vil den havne utenfor viewporten. 
+:bulb: Flytter man firkanten for langt vil den havne utenfor viewporten.
 
 :bulb: Mer om posisjonering kan leses på [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions)
 
@@ -51,15 +51,15 @@ Flytt den rød firkanten ned i høyre hjørne.
 
 Det finnes former som man bruke som byggesteiner til å lage mer avanserte SVGer.
 
-* [rect](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect) brukes til å tegne rektangler.
-* [circle](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle) brukes til å tegne sirkler.
-* [ellipse](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse) er en mer generell versjon av `circle`.
-* [line](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line) brukes til å tegne rette linjer mellom to punkter.
-* [polyline](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline) brukes til å tegne linjer mellom flere punkter.
-* [polygon](https://developer.mozilla.org/en-US/Web/SVG/Element/polygon) brukes på samme måte som `polyline`, men tegner en strek mellom første og siste punkt slik at man får en lukket form.
-* [path](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path) er den mest generelle formen som kan brukes i SVG og kan brukes til å lage alle andre elementer. Man bruker attributten [d](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d) til å definere pathen som skal tegnes.
+- [rect](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect) brukes til å tegne rektangler.
+- [circle](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle) brukes til å tegne sirkler.
+- [ellipse](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse) er en mer generell versjon av `circle`.
+- [line](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line) brukes til å tegne rette linjer mellom to punkter.
+- [polyline](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline) brukes til å tegne linjer mellom flere punkter.
+- [polygon](https://developer.mozilla.org/en-US/Web/SVG/Element/polygon) brukes på samme måte som `polyline`, men tegner en strek mellom første og siste punkt slik at man får en lukket form.
+- [path](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path) er den mest generelle formen som kan brukes i SVG og kan brukes til å lage alle andre elementer. Man bruker attributten [d](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d) til å definere pathen som skal tegnes.
 
-### :trophy: [Oppgave 2](https://codepen.io/sveinpg/pen/ePmvey) 
+### :trophy: [Oppgave 2](https://codepen.io/sveinpg/pen/ePmvey)
 
 Lag en svart firkant med en rød sirkel.
 
@@ -111,7 +111,7 @@ Vil det se slik ut.
 
 > Legg merke til at man bruker `id` til å hente ut riktig element.
 
-### :trophy: [Oppgave 4](https://codepen.io/sveinpg/pen/KGwWbX) 
+### :trophy: [Oppgave 4](https://codepen.io/sveinpg/pen/KGwWbX)
 
 Gi hjertet rød fyllfarge og en svart strek rundt ved hjelp av css.
 
@@ -121,12 +121,26 @@ Hvis du har vært inne på uxcup.bekk.no har du nok sett de kule animasjonene vi
 
 Skulle du ønske at du kunne lage like kule animasjoner? Flaks for deg, det er nemlig det du skal nå.
 
-### :trophy: [Oppgave 5](https://codepen.io/sveinpg/pen/EdaqQE) 
+### :trophy: [Oppgave 5](https://codepen.io/mfeiring/pen/JmdVNM)
 
 Lag to keyframes (`shake` og `dash`) og få raketten til å se mer levende ut. Når du er ferdig burde du ha noe som ligner på raketten under.
 
-<img src="img/rocket.gif" height="200">
+<img src="img/rocket.gif" height="250">
 
-:bulb: Man kan lage effekten av at raketten rister med `translate3d`
+:bulb: Man kan lage effekten av at raketten rister med `translate`
 
 :bulb: Man kan lage effekten av at strekene beveger seg med `stroke-dashoffset`
+
+:school_satchel: [Fasit](https://codepen.io/mfeiring/pen/KGpYQz)
+
+### :trophy: [Oppgave 6](https://codepen.io/mfeiring/pen/ePNaBr)
+
+I denne oppgaven har vi satt opp `@keyframes`, men du skal selv få definere `animation` og `stroke-dasharray`. Du kan lese mer om hvordan `stroke-dasharray` funker [her](https://css-tricks.com/svg-line-animation-works/).
+
+<img src="img/lightbulb.gif" height="250">
+
+:bulb: Bruk en kombinasjon av `animation-duration` og `animation-delay`, for å få samme keyframes til å funke for alle `path`-elementene.
+
+:bulb: `animation-delay` er vel og bra, men det funker ikke hvis man ønsker å loope animasjonen. Hvis du ønsker å loope animasjonen, så må du nok trikse litt med keyframes. Du kan evt lese mer om dette [her](https://css-tricks.com/css-keyframe-animation-delay-iterations/)
+
+:school_satchel: [Fasit](https://codepen.io/mfeiring/pen/qJdGRv)
