@@ -18,7 +18,8 @@ Animer elementene som er satt opp, slik:
 
 :bulb: Bruk `scale` til å endre høyden  
 :bulb: Det kan være smart å sette opp litt flere `keyframes`  
-:grimacing: [Fasit](https://codepen.io/mfeiring/pen/MPwwLZ)
+
+:school_satchel: [Fasit](https://codepen.io/mfeiring/pen/MPwwLZ)
 
 ### :trophy: [Oppgave 2](https://codepen.io/mfeiring/pen/xyGZGX)
 
@@ -27,4 +28,5 @@ Animer elementene som er satt opp, slik:
 <img src="img/clockspinner.gif" height="150">
 
 :bulb: Sentrum for animasjonen kan defineres med [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)  
-:grimacing: [Fasit](https://codepen.io/mfeiring/pen/JmdGdO)
+
+:school_satchel: [Fasit](https://codepen.io/mfeiring/pen/JmdGdO)
