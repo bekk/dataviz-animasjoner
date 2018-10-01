@@ -99,7 +99,7 @@ div {
 
 På samme måte som med `translate()`, kan vi også med `scale()` definere to parametre. Her har vi satt det andre parameteret til `1`, og vi ser at høyden på boksen ikke endrer seg, men at det blir halvparten så stort i bredden. Boksen skaleres altså ned med 50% i x-retning, mens dimensjonen i y-retning bevares.
 
-> Man kan bruke [transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin) for å endre på ankerpunktet til `transform`. Default
+> Man kan bruke [transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin) for å endre på ankerpunktet til `transform`.
 
 **Eksempel 3:**
 
