@@ -60,29 +60,29 @@ button:hover {
 
 Åpne opp `src/index.html` i en nettleser. Som i del 0 skal selve oppgavene løses ved å redigere `src/style.css`.
 
-1. Legg til en transisjon til, ved å definere enn annen verdi for `color` i `button:hover`-selektoren.
+:trophy: 1. Legg til en transisjon til, ved å definere enn annen verdi for `color` i `button:hover`-selektoren.
 
 Fordi vi kun har definert tiden transisjonen skal ta, animeres alle propertiene som endrer seg. Vi kan eksplisitt velge å kun animere én property, ved å spesifisere navnet på propertien, f.eks. `transition: background 400ms`.
 
 Vi kan også definere to transisjoner med ulik hastighet, på følgende måte: `transition: property1 400ms, property2 200ms`.
 
-1. Utvid `transition`-propertien, slik at `color`-transisjonen tar `200ms`.
+:trophy: 1. Utvid `transition`-propertien, slik at `color`-transisjonen tar `200ms`.
 
 For å utsette starttidspunktet for en transisjon, legger vi til et delay. Dette kan gjøres slik: `transition: color 200ms 100ms`. Her har vi lagt til et delay på `100ms`. Legg merke til at lengden på transisjonen defineres først.
 
-3. Legg på en delay på `color`-transisjonen, slik at den slutter samtidig som `background`-transisjonen.
+:trophy: 3. Legg på en delay på `color`-transisjonen, slik at den slutter samtidig som `background`-transisjonen.
 
 Den siste egenskapen ved en transisjon vi kan tweake på, er hvordan den akselererer, også kalt "timing function". De ulike alternativene er illustrert her:
 
 <img width="400" src="img/easing.gif">
-  
+
 Defaultverdien er `ease`, men vi kan endre den til f.eks. `linear` slik: `transition: color 200ms 100ms linear`.
 
 Det er også mulig å lage en egendefinert akselerasjonskurve, ved å bruke [cubic-bezier](http://cubic-bezier.com/#.17,.67,.83,.67).
 
-4. Sett akselerasjonen på `color`-transisjonen til `ease-in`. Prøv å bruke Chrome DevTools sin [cubic bezier editor](https://imgur.com/gallery/o2c15CZ) til å tweake på kurven.
+:trophy: 4. Sett akselerasjonen på `color`-transisjonen til `ease-in`. Prøv å bruke Chrome DevTools sin [cubic bezier editor](https://imgur.com/gallery/o2c15CZ) til å tweake på kurven.
 
-5. Lag en ny knapp, som vokser gradvis og blir dobbelt stå stor når den får musepekeren over seg.
+:trophy: 5. Lag en ny knapp, som vokser gradvis og blir dobbelt stå stor når den får musepekeren over seg.
 
 ## Animasjoner - `animation`
 
@@ -92,14 +92,14 @@ Animasjoner er mye mer fleksible enn transisjoner. F.eks. kan vi definere flere 
 
 Vi kan konfigurere en animasjon på samme måte som vi konfigurerer en transisjon, men har i tillegg et par ekstra egenskaper:
 
-- [`animation-duration`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration)
-- [`animation-delay`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay)
-- [`animation-timing-function`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)
-- [`animation-iteration-count`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count)
-- [`animation-name`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)
-- [`animation-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction)
-- [`animation-fill-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
-- [`animation-play-state`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
+* [`animation-duration`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration)
+* [`animation-delay`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay)
+* [`animation-timing-function`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)
+* [`animation-iteration-count`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count)
+* [`animation-name`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)
+* [`animation-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction)
+* [`animation-fill-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
+* [`animation-play-state`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
 
 Det går også an å definere animasjon med shorthand, som beskrevet [her](https://developer.mozilla.org/en-US/docs/Web/CSS/animation).
 
@@ -142,10 +142,10 @@ I tillegg til start og slutt, kan vi også legge til flere keyframes, som beskri
 
 Vi har laget en enkel animasjon [her](https://codepen.io/mfeiring/pen/BqywWZ), som flytter en boks fra venstre til høyre. Den er litt kjedelig, så vi skal utvide den litt.
 
-1. Bruk `animation-iteration-count` for å loope animasjonen
+:trophy: 6. Bruk `animation-iteration-count` for å loope animasjonen
 
 Fått det til? Så bra, men det ser kanskje litt rart ut at firkanten hopper tilbake til venstre, etter hver repetisjon?
 
-2. Bruk `animation-direction` for å få boksen til å animeres også fra høyre til venstre. Du kan evt utvide `@keyframes`-regelreen, slik at boksen er helt til høy ved 50%, og tilbake til venstre ved 100%.
+:trophy: 7. Bruk `animation-direction` for å få boksen til å animeres også fra høyre til venstre. Du kan evt utvide `@keyframes`-regelreen, slik at boksen er helt til høy ved 50%, og tilbake til venstre ved 100%.
 
-3. Få firkanten til å rotere mens den beveger seg.
+:trophy: 8. Få firkanten til å rotere mens den beveger seg.
