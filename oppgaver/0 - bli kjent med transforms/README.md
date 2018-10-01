@@ -36,7 +36,7 @@ div {
 
 <img src="img/eksempel-2.png" width="120">
 
-Ved å legge til et til parameter, kommaseparert fra det første, kan vi også flytte boksen i vertikal retning. Her har vi satt `translate(20px, -20px)`, så som i eksempel 1 flytter vi boksen `20px` i positiv x-retning, men i tillegg flytter vi den også `20px` i _negativ_ y-retning (altså oppover).
+Ved å legge til enda en parameter, kommaseparert fra den første, kan vi også flytte boksen i vertikal retning. Her har vi satt `translate(20px, -20px)`, slik at vi fortsatt flytter vi boksen `20px` i positiv x-retning, som i eksempel 1, men i tillegg også flytter den `20px` i _negativ_ y-retning (altså oppover).
 
 **Eksempel 3**
 
@@ -59,7 +59,7 @@ I **eksempel 1** brukte vi `translate(20px)` for å flytte boksen mot høyre, me
 
 ### Oppgaver
 
-Åpne opp `src/index.html` i en nettleser. Selve oppgavene skal løses ved å redigere `src/style.css`. Løs hver oppgave ved å redigere CSSen i selektoren som tilsvarer oppgavenummeret (`.oppgave-1` for oppgave 1 osv.).
+Åpne opp `src/index.html` i en nettleser. Selve oppgavene skal løses ved å redigere `src/style.css`. Løs hver oppgave ved å redigere CSSen i selektoren som tilsvarer oppgavenummeret, altså `.oppgave-1` for oppgave 1 osv.
 
 :trophy: 1. Flytt boks nr. 1 `20px` til høyre, ved å bruke `translateX()`. Lagre endringene, og refresh nettleservinduet med filen `src/index.html` for å se resultatet.
 
@@ -99,7 +99,7 @@ div {
 
 På samme måte som med `translate()`, kan vi også med `scale()` definere to parametre. Her har vi satt det andre parameteret til `1`, og vi ser at høyden på boksen ikke endrer seg, men at det blir halvparten så stort i bredden. Boksen skaleres altså ned med 50% i x-retning, mens dimensjonen i y-retning bevares.
 
-> Man kan bruke [transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin) for å endre på ankerpunktet til `transform`.
+> Man kan bruke [transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin) for å endre på ankerpunktet til `transform`, det vil si utgangspunktet transformasjonene våre bruker.
 
 **Eksempel 3:**
 
@@ -118,13 +118,13 @@ Også `scale()` har alternative definisjoner; `scaleX()`, `scaleY()` og `scaleZ(
 
 ### Oppgaver
 
-:trophy: 4. Gjør boks nr. 4 dobbelt bred, ved å bruke `scaleX()`.
+:trophy: 4. Gjør boks nr. 4 dobbelt så bred, ved å bruke `scaleX()`.
 
 :trophy: 5. Gjør boks nr. 5 halvparten så høy, ved å bruke `scaleY()`.
 
 :trophy: 6. Gjør boks nr. 6 tre ganger så bred og tre ganger så høy, ved å bruke `scale()`.
 
-:trophy: 7. Gjør boks nr. 7 0.2 ganger så bred og dobbelt ganger så høy, ved å bruke `scale()` med to parametre.
+:trophy: 7. Gjør boks nr. 7 0.2 ganger så bred og dobbelt så høy, ved å bruke `scale()` med to parametre.
 
 ## Skråstilling - `skew`
 
@@ -145,7 +145,7 @@ Nøyaktig hvordan `skewX()` fungerer er lettere forklart med et bilde, enn med o
 
 <img src="img/skewx.png" height="300">
 
-Den kan kanskje være litt forvirrende at `skewX(30deg)` definerer vinkelen boksen danner med y-aksen, men tenk da heller på hvilken retning boksen _endrer_ seg langs.
+Det kan kanskje være litt forvirrende at `skewX(30deg)` definerer vinkelen boksen danner med y-aksen, men tenk da heller på hvilken retning boksen _endrer_ seg langs.
 
 > Man kan i tillegg til grader (`deg`) oppgi verdien i radianer (`rad`) og runder (`turn`). 90 grader vil da være henholdsvis `1.57079633rad` og `0.125turn`.
 
