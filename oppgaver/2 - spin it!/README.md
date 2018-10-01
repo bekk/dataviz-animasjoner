@@ -1,4 +1,4 @@
-# 3 - Spin it!
+# 2 - Spin it!
 
 I denne delen skal vi kombinere det vi har sett på i de tidligere delene.
 
@@ -17,7 +17,7 @@ Animer elementene som er satt opp, slik:
 <img src="img/spinner.gif" height="150">
 
 :bulb: Bruk `scale` til å endre høyden  
-:bulb: Det kan være smart å sette opp litt flere `keyframes`  
+:bulb: Det kan være smart å sette opp litt flere `keyframes`
 
 :school_satchel: [Fasit](https://codepen.io/mfeiring/pen/MPwwLZ)
 
@@ -27,6 +27,6 @@ Animer elementene som er satt opp, slik:
 
 <img src="img/clockspinner.gif" height="150">
 
-:bulb: Sentrum for animasjonen kan defineres med [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)  
+:bulb: Sentrum for animasjonen kan defineres med [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
 
 :school_satchel: [Fasit](https://codepen.io/mfeiring/pen/JmdGdO)
