@@ -62,7 +62,9 @@ I **eksempel 1** brukte vi `translate(20px)` for å flytte boksen mot høyre, me
 Åpne opp `src/index.html` i en nettleser. Selve oppgavene skal løses ved å redigere `src/style.css`. Løs hver oppgave ved å redigere CSSen i selektoren som tilsvarer oppgavenummeret (`.oppgave-1` for oppgave 1 osv.).
 
 :trophy: 1. Flytt boks nr. 1 `20px` til høyre, ved å bruke `translateX()`. Lagre endringene, og refresh nettleservinduet med filen `src/index.html` for å se resultatet.
+
 :trophy: 2. Flytt boks nr. 2 `20px` oppover, ved å bruke `translateY()`.
+
 :trophy: 3. Flytt boks nr. 3 `50%` til venstre og `50%` oppover, ved å bruke `translate()` med to parametre.
 
 ## Skalering - `scale`
@@ -117,8 +119,11 @@ Også `scale()` har alternative definisjoner; `scaleX()`, `scaleY()` og `scaleZ(
 ### Oppgaver
 
 :trophy: 4. Gjør boks nr. 4 dobbelt bred, ved å bruke `scaleX()`.
+
 :trophy: 5. Gjør boks nr. 5 halvparten så høy, ved å bruke `scaleY()`.
+
 :trophy: 6. Gjør boks nr. 6 tre ganger så bred og tre ganger så høy, ved å bruke `scale()`.
+
 :trophy: 7. Gjør boks nr. 7 0.2 ganger så bred og dobbelt ganger så høy, ved å bruke `scale()` med to parametre.
 
 ## Skråstilling - `skew`
@@ -183,7 +188,9 @@ Akkurat som med `translate()` og `scale()`, kan vi definere definere `skew()` me
 `skew()` er litt enklere å forstå, dersom man bruker DevTools i nettleseren til å gradvis øke parameterene med +/-1. Du kan se hvordan dette gjøres [her](https://developers.google.com/web/updates/2015/05/quickly-change-css-values). Dersom du ikke er så kjent med DevTools, kan en av veilederne hjelpe deg.
 
 :trophy: 8. Skråstill boks nr. 8 med 30 grader, ved å bruke `skewX(30deg)`.
+
 :trophy: 9. Skråstill boks nr. 9 med 30 grader, ved å bruke `skewY()`.
+
 :trophy: 10. Skråstill boks nr. 10 med ved å bruke `skew()` med to parametre, og prøv å endre litt på dem i DevTools.
 
 ## Rotasjon - `rotate`
@@ -206,4 +213,5 @@ Her ser vi at `rotate(30deg)` roterer boksen 30° _med_ klokka. Tilsvarende vill
 ### Oppgaver
 
 :trophy: 11. Roter boks nr. 11 20 grader med klokka, ved å bruke `rotate()` eller `rotateZ()` .
+
 :trophy: 12. Vi kan også bruke `turn` som enhet, for å definere hvor mye et element et skal roteres. Roter boks nr. 12 ved å bruke `rotate(0.5turn)`
