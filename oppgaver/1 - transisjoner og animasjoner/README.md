@@ -66,7 +66,7 @@ Fordi vi kun har definert tiden transisjonen skal ta, animeres alle propertiene 
 
 Vi kan også definere to transisjoner med ulik hastighet, på følgende måte: `transition: property1 400ms, property2 200ms`.
 
-:trophy: 1. Utvid `transition`-propertien, slik at `color`-transisjonen tar `200ms`.
+:trophy: 2. Utvid `transition`-propertien, slik at `color`-transisjonen tar `200ms`.
 
 For å utsette starttidspunktet for en transisjon, legger vi til et delay. Dette kan gjøres slik: `transition: color 200ms 100ms`. Her har vi lagt til et delay på `100ms`. Legg merke til at lengden på transisjonen defineres først.
 
