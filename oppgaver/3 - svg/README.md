@@ -2,7 +2,7 @@
 
 SVG er et XML-språk, i likhet med HTML, som kan bli brukt til å tegne vektorgrafikk. Enten ved å spesfisere alle linjer og objekter eller ved å modifisere bilder.
 
-### Et enkelt eksempel.
+## Et enkelt eksempel.
 
 ```html
 <svg
@@ -37,13 +37,15 @@ Koordinatsystemet startet i øvre venstre hjørne (0,0). Posisjoner måles i pik
 
 > Legg merke til at dette er motsatt av hva man lærte på skolen.
 
-:trophy: [Oppgave 1](https://codepen.io/sveinpg/pen/qJErqy): Flytt den rød firkanten ned i høyre hjørne.
+### :trophy: [Oppgave 1](https://codepen.io/sveinpg/pen/qJErqy) 
+
+Flytt den rød firkanten ned i høyre hjørne.
 
 <img src="img/rect.png" height="200">
 
 :bulb: Mer om posisjonering kan leses på [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions)
 
-### Basic shapes
+## Basic shapes
 
 Det finnes former som man bruke som byggesteiner til å lage mer avanserte SVGer.
 
@@ -55,7 +57,9 @@ Det finnes former som man bruke som byggesteiner til å lage mer avanserte SVGer
 * [polygon](https://developer.mozilla.org/en-US/Web/SVG/Element/polygon) brukes på samme måte som `polyline`, men tegner en strek mellom første og siste punkt slik at man får en lukket form.
 * [path](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path) er den mest generelle formen som kan brukes i SVG og kan brukes til å lage alle andre elementer. Man bruker attributten [d](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d) til å definere pathen som skal tegnes.
 
-:trophy: [Oppgave 2](https://codepen.io/sveinpg/pen/ePmvey): Lag en svart firkant med en rød sirkel.
+### :trophy: [Oppgave 2](https://codepen.io/sveinpg/pen/ePmvey) 
+
+Lag en svart firkant med en rød sirkel.
 
 <img src="img/circle.png" height="200">
 
@@ -63,17 +67,19 @@ Det finnes former som man bruke som byggesteiner til å lage mer avanserte SVGer
 
 :bulb: SVG-dokumenter leses fra toppen og nedover. Slik at elementer definert lenger ned i dokumentet tegnes på toppen av de som er tegnet allerede.
 
-### Fill and stroke
+## Fill and stroke
 
 For å bestemme fargen til et element bruker man attributtene `fill` og `stroke`. Begge tar samme verdier som farger som man kan bruke i css. Enten det er fargenavn (feks `red`) eller rgb-verdier (feks `rgb(255,0,0)`) eller hex-verdier (feks `#fffff`). Man kan i tillegg spesifisere hvor gjennomsiktig en farge skal være (opacity) med attributtene `fill-opacity` og `stroke-opacity`.
 
-:trophy: [Oppgave 3](https://codepen.io/sveinpg/pen/KGwWbX): Gi hjertet rød fyllfarge og en svart strek rundt.
+### :trophy: [Oppgave 3](https://codepen.io/sveinpg/pen/KGwWbX)
+
+Gi hjertet rød fyllfarge og en svart strek rundt.
 
 <img src="img/hearth.png" height="200">
 
 :bulb: Mer om [fill og stroke](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes)
 
-### Styling med CSS
+## Styling med CSS
 
 I tillegg til å sette attributter på objekter kan man bruke CSS til å style `fill` og `stroke`. Ikke alle attributter kan settes med CSS. `fill`, `stroke` og `stroke-dasharray` er blandt attributtene som kan settes med CSS. Attributter som `width`, `height` og `path`-spesifikke kommandoer kan ikke settes med CSS.
 
@@ -103,15 +109,19 @@ Vil det se slik ut.
 
 > Legg merke til at man bruker `id` til å hente ut riktig element.
 
-:trophy: [Oppgave 4](https://codepen.io/sveinpg/pen/KGwWbX): Gi hjertet rød fyllfarge og en svart strek rundt ved hjelp av css.
+### :trophy: [Oppgave 4](https://codepen.io/sveinpg/pen/KGwWbX) 
 
-### Animasjoner med css.
+Gi hjertet rød fyllfarge og en svart strek rundt ved hjelp av css.
+
+## Animasjoner med css.
 
 Hvis du har vært inne på uxcup.bekk.no har du nok sett de kule animasjonene vi har der. Disse er laget av SVGer som er animert med CSS. Man setter en klasse på SVG-elementet og bruker denne klassen til å gi SVGen en animasjon via `animation` nøkkelen i CSS.
 
 Skulle du ønske at du kunne lage like kule animasjoner? Flaks for deg, det er nemlig det du skal nå.
 
-:trophy: [Oppgave 5](https://codepen.io/sveinpg/pen/EdaqQE): Lag to keyframes (`shake` og `dash`) og få raketten til å se mer levende ut. Når du er ferdig burde du ha noe som ligner på raketten under.
+### :trophy: [Oppgave 5](https://codepen.io/sveinpg/pen/EdaqQE) 
+
+Lag to keyframes (`shake` og `dash`) og få raketten til å se mer levende ut. Når du er ferdig burde du ha noe som ligner på raketten under.
 
 <img src="img/rocket.gif" height="200">
 
