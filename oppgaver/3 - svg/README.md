@@ -43,6 +43,8 @@ Flytt den rød firkanten ned i høyre hjørne.
 
 <img src="img/rect.png" height="200">
 
+:bulb: Flytter man firkanten for langt vil den havne utenfor viewporten. 
+
 :bulb: Mer om posisjonering kan leses på [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Positions)
 
 ## Basic shapes
