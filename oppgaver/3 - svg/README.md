@@ -113,7 +113,7 @@ Vil det se slik ut.
 
 ### :trophy: [Oppgave 4](https://codepen.io/sveinpg/pen/KGwWbX)
 
-Gi hjertet rød fyllfarge og en svart strek rundt ved hjelp av css.
+Bruk CSS til å gi hjertet fyllfarge og en svart strek rundt.
 
 ## Animasjoner med css.
 
