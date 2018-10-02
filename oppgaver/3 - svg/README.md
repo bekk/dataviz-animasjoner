@@ -150,3 +150,7 @@ I denne oppgaven har vi satt opp `@keyframes`, men du skal selv få definere `an
 :bulb: `animation-delay` er vel og bra, men det funker ikke hvis man ønsker å loope animasjonen. Hvis du ønsker å loope animasjonen, så må du nok trikse litt med keyframes. Du kan evt lese mer om dette [her](https://css-tricks.com/css-keyframe-animation-delay-iterations/)
 
 :school_satchel: [Fasit](https://codepen.io/mfeiring/pen/qJdGRv)
+
+### :trophy: [Oppgave 7](https://codepen.io/mfeiring/pen/ePpLLg)
+
+Her har du en SVG av Bekk-logoen. Prøv å gjenskape hover-effekten logoen har på bekk.no
