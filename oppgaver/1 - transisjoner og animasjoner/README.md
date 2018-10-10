@@ -149,3 +149,6 @@ Fått det til? Så bra, men det ser kanskje litt rart ut at firkanten hopper til
 :trophy: 7. Bruk `animation-direction` for å få boksen til å animeres også fra høyre til venstre. Du kan evt utvide `@keyframes`-regelen, slik at boksen er helt til høyre ved 50%, og tilbake til venstre ved 100%.
 
 :trophy: 8. Få firkanten til å rotere mens den beveger seg.
+
+:bulb: For å legge til flere transformasjoner på samme element, f.eks. både skalering og forflytning, gjør man slik:
+`transform: scale(2) translate(10px);`
